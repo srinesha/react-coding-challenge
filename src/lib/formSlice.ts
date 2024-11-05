@@ -53,6 +53,36 @@ const initialState: Field = {
         },
       ],
     },
+    {
+      id: 293847,
+      name: "",
+      type: "step",
+      isDisabled: false,
+      children: [
+        {
+          id: 203984,
+          type: "checkbox",
+          name: "Checkbox",
+          value: true,
+          isDisabled: false,
+          condition: {
+            visible: {
+              when: {
+                value: true,
+                fieldId: 340987,
+              },
+            },
+          },
+        },
+        {
+          id: 340987,
+          type: "textfield",
+          name: "Text Field",
+          value: false,
+          isDisabled: true,
+        },
+      ],
+    },
   ],
 };
 
